@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="202f72f2-513e-4bc5-a755-ead6b29725b0" name="Default Changelist" comment="" />
+    <list default="true" id="202f72f2-513e-4bc5-a755-ead6b29725b0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_async_3_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_11_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_reactivestreams_1_12_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_mongodb_reactive_2_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_mongodb_2_2_6_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_5_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-reactive/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-reactive/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-reactive/src/test/java/com/royforthewin/springreactive/fluxAndMono/FluxAndMonoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-reactive/src/test/java/com/royforthewin/springreactive/fluxAndMono/FluxAndMonoTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,10 +25,24 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1b93sOHuRdRQFt1ptd6XE9YVds7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -23,23 +51,87 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-reactive/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
-    <configuration name="FluxAndMonoTest.fluxTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.royforthewin.springreactive.Controller" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.FluxAndMonoControllerTest.mono">
+    <configuration name="SpringReactiveApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.royforthewin.springreactive.SpringReactiveApplication" />
       <module name="spring-reactive" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.royforthewin.springreactive.fluxAndMono.*" />
+          <option name="PATTERN" value="com.royforthewin.springreactive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.royforthewin.springreactive.fluxAndMono" />
-      <option name="MAIN_CLASS_NAME" value="com.royforthewin.springreactive.fluxAndMono.FluxAndMonoTest" />
-      <option name="METHOD_NAME" value="fluxTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in spring-reactive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-reactive" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FluxAndMonoControllerTest.fluxApproach4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-reactive" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.royforthewin.springreactive.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.royforthewin.springreactive.Controller" />
+      <option name="MAIN_CLASS_NAME" value="com.royforthewin.springreactive.Controller.FluxAndMonoControllerTest" />
+      <option name="METHOD_NAME" value="fluxApproach4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FluxAndMonoControllerTest.fluxStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-reactive" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.royforthewin.springreactive.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.royforthewin.springreactive.Controller" />
+      <option name="MAIN_CLASS_NAME" value="com.royforthewin.springreactive.Controller.FluxAndMonoControllerTest" />
+      <option name="METHOD_NAME" value="fluxStream" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FluxAndMonoControllerTest.mono" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-reactive" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.royforthewin.springreactive.Controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.royforthewin.springreactive.Controller" />
+      <option name="MAIN_CLASS_NAME" value="com.royforthewin.springreactive.Controller.FluxAndMonoControllerTest" />
+      <option name="METHOD_NAME" value="mono" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -47,7 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FluxAndMonoTest.fluxTest" />
+        <item itemvalue="JUnit.FluxAndMonoControllerTest.mono" />
+        <item itemvalue="JUnit.FluxAndMonoControllerTest.fluxStream" />
+        <item itemvalue="Application.SpringReactiveApplication" />
+        <item itemvalue="JUnit.All in spring-reactive" />
+        <item itemvalue="JUnit.FluxAndMonoControllerTest.fluxApproach4" />
       </list>
     </recent_temporary>
   </component>
@@ -73,21 +169,45 @@
       <screen x="1920" y="125" width="1920" height="1040" />
     </state>
     <state x="2660" y="354" key="FileChooserDialogImpl/0.0.1920.1040/1920.125.1920.1040@1920.125.1920.1040" timestamp="1588031615036" />
-    <state width="1877" height="406" key="GridCell.Tab.0.bottom" timestamp="1588032528697">
+    <state width="1877" height="231" key="GridCell.Tab.0.bottom" timestamp="1588038605334">
       <screen x="1920" y="125" width="1920" height="1040" />
     </state>
-    <state width="1877" height="406" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.125.1920.1040@1920.125.1920.1040" timestamp="1588032528697" />
-    <state width="1877" height="406" key="GridCell.Tab.0.center" timestamp="1588032528697">
+    <state width="1877" height="231" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.125.1920.1040@1920.125.1920.1040" timestamp="1588038605334" />
+    <state width="1877" height="231" key="GridCell.Tab.0.center" timestamp="1588038605334">
       <screen x="1920" y="125" width="1920" height="1040" />
     </state>
-    <state width="1877" height="406" key="GridCell.Tab.0.center/0.0.1920.1040/1920.125.1920.1040@1920.125.1920.1040" timestamp="1588032528697" />
-    <state width="1877" height="406" key="GridCell.Tab.0.left" timestamp="1588032528696">
+    <state width="1877" height="231" key="GridCell.Tab.0.center/0.0.1920.1040/1920.125.1920.1040@1920.125.1920.1040" timestamp="1588038605334" />
+    <state width="1877" height="231" key="GridCell.Tab.0.left" timestamp="1588038605334">
       <screen x="1920" y="125" width="1920" height="1040" />
     </state>
-    <state width="1877" height="406" key="GridCell.Tab.0.left/0.0.1920.1040/1920.125.1920.1040@1920.125.1920.1040" timestamp="1588032528696" />
-    <state width="1877" height="406" key="GridCell.Tab.0.right" timestamp="1588032528697">
+    <state width="1877" height="231" key="GridCell.Tab.0.left/0.0.1920.1040/1920.125.1920.1040@1920.125.1920.1040" timestamp="1588038605334" />
+    <state width="1877" height="231" key="GridCell.Tab.0.right" timestamp="1588038605334">
       <screen x="1920" y="125" width="1920" height="1040" />
     </state>
-    <state width="1877" height="406" key="GridCell.Tab.0.right/0.0.1920.1040/1920.125.1920.1040@1920.125.1920.1040" timestamp="1588032528697" />
+    <state width="1877" height="231" key="GridCell.Tab.0.right/0.0.1920.1040/1920.125.1920.1040@1920.125.1920.1040" timestamp="1588038605334" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1588033367395">
+      <screen x="1920" y="125" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.125.1920.1040@1920.125.1920.1040" timestamp="1588033367395" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1588033367395">
+      <screen x="1920" y="125" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/1920.125.1920.1040@1920.125.1920.1040" timestamp="1588033367395" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1588033367395">
+      <screen x="1920" y="125" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/1920.125.1920.1040@1920.125.1920.1040" timestamp="1588033367395" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1588033367395">
+      <screen x="1920" y="125" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/1920.125.1920.1040@1920.125.1920.1040" timestamp="1588033367395" />
+    <state x="2621" y="363" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1588035759496">
+      <screen x="1920" y="125" width="1920" height="1040" />
+    </state>
+    <state x="2621" y="363" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040/1920.125.1920.1040@1920.125.1920.1040" timestamp="1588035759496" />
+    <state x="2577" y="377" width="606" height="536" key="find.popup" timestamp="1588036850075">
+      <screen x="1920" y="125" width="1920" height="1040" />
+    </state>
+    <state x="2577" y="377" width="606" height="536" key="find.popup/0.0.1920.1040/1920.125.1920.1040@1920.125.1920.1040" timestamp="1588036850075" />
   </component>
 </project>
